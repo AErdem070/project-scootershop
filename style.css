@@ -1,0 +1,72 @@
+/* Algemene opmaak */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Hero header */
+.hero {
+    background-image: url('afbeeldingen/header-scooter.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+}
+
+/* Koppen */
+h1, h2, h3 {
+    margin-bottom: 20px;
+}
+
+/* Navigatie */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    font-size: 1rem;
+    margin-left: 15px;
+}
+
+/* Footer */
+footer {
+    background-color: #212529;
+    color: white;
+}
+
+/* Scooter product cards */
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: transform 0.2s;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.product-card:hover {
+    transform: scale(1.02);
+}
+
+.product-card img {
+    max-width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+
+.product-card .card-body {
+    padding: 15px;
+}
+
+/* Responsiviteit extra */
+@media (max-width: 576px) {
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+    .hero p {
+        font-size: 1rem;
+    }
+}
